@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/ico" href="/src/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/core/css/global.css" />
+    <link rel="stylesheet" href="/src/core/css/header.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>AluraGeek - Form Add</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <nav class="navbar">
+        <a href="/src/index.html">
+          <img
+            src="/src/assets/images/logo/logo.png"
+            alt="logo"
+            class="navbar__image"
+          />
+        </a>
+      </nav>
+    </header>
+    <main class="main-container">
+      <section class="form-add">
+        <div class="form-add-section">
+          <form method="#" class="form-add-section-form">
+            <h2 class="form-add-section-form__title">Nuevo producto</h2>
+            <div class="form-add-section-form-content">
+              <label
+                for="image-form-add"
+                class="form-add-section-form-content__title"
+                >URL de la imagen del producto</label
+              >
+              <input
+                type="text"
+                id="image-form-add"
+                class="form-add-section-form-content__text"
+                required
+              />
+            </div>
+            <div class="form-add-section-form-content">
+              <label
+                for="category-form-add"
+                class="form-add-section-form-content__title"
+                >Categoria</label
+              >
+              <select
+                id="category-form-add"
+                class="form-add-section-form-content__text"
+                required
+              ></select>
+            </div>
+            <div class="form-add-section-form-content">
+              <label
+                for="name-form-add"
+                class="form-add-section-form-content__title"
+                >Nombre del producto</label
+              >
+              <input
+                type="text"
+                id="name-form-add"
+                class="form-add-section-form-content__text"
+                required
+              />
+            </div>
+            <div class="form-add-section-form-content">
+              <label
+                for="price-form-add"
+                class="form-add-section-form-content__title"
+                >Precio del producto</label
+              >
+              <input
+                type="number"
+                id="price-form-add"
+                class="form-add-section-form-content__text"
+                required
+              />
+            </div>
+            <div class="form-add-section-form-content">
+              <label
+                for="description-form-add"
+                class="form-add-section-form-content__title"
+                >Descripción del producto</label
+              >
+              <textarea
+                id="description-form-add"
+                class="form-add-section-form-content__description"
+              ></textarea>
+            </div>
+            <button
+              id="form-add-button"
+              type="click"
+              class="form-add-section-form__button"
+            >
+              Añadir producto
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

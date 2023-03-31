@@ -1,0 +1,30 @@
+.navbar {
+    width: 100%;
+    height: 60px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.navbar__image {
+    width: 140px;
+    height: 40px;
+}
+
+.navbar__button {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #2a7ae4;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #2a7ae4;
+    background-color: #ffffff;
+}

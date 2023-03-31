@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./core/css/global.css" />
+    <link rel="stylesheet" href="./core/css/header.css" />
+    <link rel="stylesheet" href="./core/css/footer.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>AluraGeek</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <nav class="navbar">
+        <a href="./index.html">
+          <img
+            src="./assets/images/logo/logo.png"
+            alt="logo"
+            class="navbar__image"
+          />
+        </a>
+        <a href="./auth/login.html" class="navbar__button">Login</a>
+      </nav>
+    </header>
+    <main class="main-container">
+      <section class="banner">
+        <div class="banner__image"></div>
+        <div class="banner-content">
+          <h1 class="banner-content__title">Febrero Promocional</h1>
+          <p class="banner-content__subtitle">
+            Productos seleccionados con 33% de descuento
+          </p>
+          <a href="#consoles" class="banner-content__button">Ver consolas</a>
+        </div>
+      </section>
+      <section class="featured">
+        <div class="featured-header">
+          <h2 class="featured-header__title">Star Wars</h2>
+          <a href="#" class="featured-header__button"
+            >Ver todo <span class="featured-header__button-icon"></span
+          ></a>
+        </div>
+        <div id="featured-one" class="featured-section"></div>
+      </section>
+      <section class="featured" id="consoles">
+        <div class="featured-header">
+          <h2 class="featured-header__title">Consolas</h2>
+          <a href="#" class="featured-header__button"
+            >Ver todo <span class="featured-header__button-icon"></span
+          ></a>
+        </div>
+        <div id="featured-two" class="featured-section"></div>
+      </section>
+      <section class="featured">
+        <div class="featured-header">
+          <h2 class="featured-header__title">Varios</h2>
+          <a href="#" class="featured-header__button"
+            >Ver todo <span class="featured-header__button-icon"></span
+          ></a>
+        </div>
+        <div id="featured-three" class="featured-section"></div>
+      </section>
+    </main>
+    <footer class="footer-container">
+      <section class="contact">
+        <div class="contact-header">
+          <div class="contact-header-logo">
+            <img
+              src="./assets/images/logo/logo.png"
+              alt="logo"
+              class="contact-header-logo__image"
+            />
+          </div>
+          <div class="contact-header-list">
+            <a href="#" class="contact-header-list__item">Quienes somos</a>
+            <a href="#" class="contact-header-list__item"
+              >Política de privacidad</a
+            >
+            <a href="#" class="contact-header-list__item"
+              >Programa de fidelidad</a
+            >
+            <a href="#" class="contact-header-list__item">Nuestras tiendas</a>
+            <a href="#" class="contact-header-list__item"
+              >Quiero ser franquiciado</a
+            >
+            <a href="#" class="contact-header-list__item">Anúncie aquí</a>
+          </div>
+        </div>
+        <div class="contact-section">
+          <form action="#" class="contact-section-form">
+            <h2 class="contact-section-form__title">Hable con nosotros</h2>
+            <div class="contact-section-form-content">
+              <label
+                for="name-contact"
+                class="contact-section-form-content__title"
+                >Nombre</label
+              >
+              <input
+                type="text"
+                id="name-contact"
+                class="contact-section-form-content__name"
+                required
+              />
+            </div>
+            <div class="contact-section-form-content">
+              <label
+                for="message-contact"
+                class="contact-section-form-content__title"
+                >Mensaje</label
+              >
+              <textarea
+                id="message-contact"
+                class="contact-section-form-content__message"
+              ></textarea>
+            </div>
+            <button type="submit" class="contact-section-form__button">
+              Enviar
+            </button>
+          </form>
+        </div>
+      </section>
+    </footer>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
